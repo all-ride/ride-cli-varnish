@@ -1,0 +1,29 @@
+{
+    "commands": [
+        {
+            "name": "varnish",
+            "aliases": "v",
+            "class": "ride\\cli\\command\\varnish\\VarnishCommand"
+        },
+        {
+            "name": "varnish add",
+            "aliases": "va",
+            "class": "ride\\cli\\command\\varnish\\VarnishAddCommand"
+        },
+        {
+            "name": "varnish remove",
+            "aliases": "vr",
+            "class": "ride\\cli\\command\\varnish\\VarnishRemoveCommand"
+        },
+        {
+            "name": "varnish ban",
+            "aliases": "vb",
+            "class": "ride\\cli\\command\\varnish\\VarnishBanCommand"
+        },
+        {
+            "name": "varnish ban url",
+            "aliases": "vbu",
+            "class": "ride\\cli\\command\\varnish\\VarnishBanUrlCommand"
+        }
+    ]
+}

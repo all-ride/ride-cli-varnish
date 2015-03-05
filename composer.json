@@ -1,0 +1,21 @@
+{
+    "name": "ride/cli-varnish",
+    "description": "Varnish commands for the Ride CLI",
+    "license": "MIT",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Joris Vandeweerd",
+            "email": "joris@statik.be"
+        }
+    ],
+    "require": {
+        "ride/cli": ">=0.5.0",
+        "ride/lib-varnish": ">=0.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "ride\\cli\\command\\": ["src/"]
+        }
+    }
+}
