@@ -24,6 +24,11 @@
             "name": "varnish ban url",
             "aliases": "vbu",
             "class": "ride\\cli\\command\\varnish\\VarnishBanUrlCommand"
+        },
+        {
+            "name": "varnish generate redirect",
+            "aliases": "vgr",
+            "class": "ride\\cli\\command\\varnish\\VarnishGenerateRedirectCommand"
         }
     ]
 }
