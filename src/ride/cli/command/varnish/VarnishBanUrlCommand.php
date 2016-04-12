@@ -47,6 +47,8 @@ class VarnishBanUrlCommand extends AbstractCommand {
 
             if ($force) {
                 $server->setIgnoreOnFail(true);
+            } else {
+                $server->setIgnoreOnFail(false);
             }
         }
 
