@@ -26,6 +26,11 @@
             "class": "ride\\cli\\command\\varnish\\VarnishBanUrlCommand"
         },
         {
+            "name": "varnish load",
+            "aliases": "vcl",
+            "class": "ride\\cli\\command\\varnish\\VarnishVclLoadCommand"
+        },
+        {
             "name": "varnish generate redirect",
             "aliases": "vgr",
             "class": "ride\\cli\\command\\varnish\\VarnishGenerateRedirectCommand"
